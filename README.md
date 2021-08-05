@@ -16,8 +16,8 @@
 ```
 4-1 整體寬度為 100%
 4-2 Right-panel 寬度為 30%, Content 寬度為 70%
-4-1 Content 最小高度為 2 個螢幕高度
-4-2 Header 為 sticky 會隨著滾動持續在最頂端
+4-3 Content 最小高度為 2 個螢幕高度
+4-4 Header 為 sticky 會隨著滾動持續在最頂端
 ```
 
 ![image](https://user-images.githubusercontent.com/87496004/128321905-a791e90e-afd2-46b1-9256-eb00f43a33be.png)
