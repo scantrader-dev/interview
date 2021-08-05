@@ -14,6 +14,8 @@
 4. 請試著透過 HTML / CSS (SASS / SCSS) 製作出如下圖的 HTML 頁面，請注意底下備註
 
 ```
+4-1 整體寬度為 100%
+4-2 Right-panel 寬度為 30%, Content 寬度為 70%
 4-1 Content 最小高度為 2 個螢幕高度
 4-2 Header 為 sticky 會隨著滾動持續在最頂端
 ```
