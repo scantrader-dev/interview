@@ -1,0 +1,59 @@
+#app {
+  display: flex;
+  width: 100vw;
+  flex-flow: nowrap column;
+}
+#app header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2aef3;
+}
+#app header h1 {
+  font-size: 42px;
+}
+#app div#content {
+  display: flex;
+  width: 100%;
+  height: 200vh;
+  flex-flow: nowrap row;
+}
+#app div#content main {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+#app div#content main h2 {
+  font-size: 42px;
+}
+#app div#content aside {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+}
+#app div#content aside h2 {
+  font-size: 42px;
+}
+#app footer {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: #ad38ad;
+}
+#app footer h2 {
+  font-size: 42px;
+}
+
+/*# sourceMappingURL=style.css.map */
