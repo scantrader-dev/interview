@@ -9,6 +9,7 @@
 確認瓶頸：
 * 使用Chrome DevTools，查看效能表裡的 Timings 
 * 檢查請求HTML時，哪個項目所消耗的時間。
+![](https://i.imgur.com/wtZccRC.png)
 
 解決方式：
 * 網頁結構的調整(字體、版面)
@@ -40,7 +41,7 @@
 
 5. 請試著改寫以下 function ，並且可以如下 Expect 方式取得回傳值
 
-Expect and return
+Expect and returngit
 ```
 const sum = add(3)(2);
 // sum = 5
