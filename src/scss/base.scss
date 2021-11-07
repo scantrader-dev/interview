@@ -1,0 +1,50 @@
+// reset
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.layout-header {
+  position: sticky;
+  width: 100%;
+  height: 50px;
+  background: pink;
+  top: 0;
+  left: 0;
+}
+
+.layout-body {
+  display: flex;
+}
+
+.layout-content {
+  flex: 0 0 70%;
+  max-width: 70%;
+  min-height: 200vh;
+}
+
+.layout-sidebar {
+  flex: 0 0 30%;
+  max-width: 30%;
+  background-color: palevioletred;
+}
+
+.layout-footer {
+  width: 100%;
+  height: 50px;
+  background-color: violet;
+}
+
+[class^="layout"]:not(.layout-body) {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
