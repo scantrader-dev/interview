@@ -1,6 +1,15 @@
 
 # Quick Interview
 
+## 表達題
+
+1. 你為什麼想加入微股力？
+2. 你的專長能帶給微股力什麼？
+3. 對你而言人生最重要的核心價值是什麼？
+4. 你覺得微股力哪裡可以做得更好？
+
+
+## 技術題
 
 ![](https://i.imgur.com/0UCZ35Z.jpg)
 
@@ -24,7 +33,6 @@
 
 5. 請試著改寫以下 function ，並且可以如下 Expect 方式取得回傳值
 
-Expect and return
 ```
 const sum = add(3)(2);
 // sum = 5
@@ -36,3 +44,6 @@ function add () {
   // TODO: need to implement
 }
 ```
+
+6. 請分析官網並給技術建議
+
